@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="/action_page.php">
+            <h1>XYZ College/School</h1>
+            <h2>Student Registration Form</h2>
+            <table width="800">
+                <tr>
+                    <td><label for="img">Student Image:</label></td>
+                    <td><input type="file" id="img" name="img" accept="image/*">
+                        <label for="img">(less than 5 Mb)</label></td>
+                </tr>
+                <tr>
+                    <td><label for="studentName">Student Name:</label></td>
+                    <td><input type="text" id="studentName" name="studentName" placeholder="Full Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="fathersName">Father's Name:</label></td>
+                    <td><input type="text" id="fathersName" name="fathersName" placeholder="Father's Full Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="mothersName">Mother's Name:</label></td>
+                    <td><input type="text" id="mothersName" name="mothersName" placeholder="Mother's Full Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td><label for="male">Male</label>
+                        <input type="radio" id="male gender" name="gender" value="male">
+                        <label for="female">Female</label>
+                        <input type="radio" id="female gender" name="gender" value="female">
+                        <label for="other">Other</label>
+                        <input type="radio" id="other gender" name="gender" value="other"></td>
+                </tr>
+                <tr>
+                    <td><label for="dateOfBirth">Date of Birth:</label></td>
+                    <td><input type="date" id="dateOfBirth" name="dateOfBirth"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail:</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="email@xyz.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="level">Level:</label></td>
+                    <td>
+                        <select id="level" name="level">
+                            <option value="High School">High School</option>
+                            <option value="College">College</option>
+                            <option value="University">University</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="departement">Departement:</label></td>
+                    <td><select id="departement" name="departement">
+                        <option value="Electrical Engineering">Electrical Engineering</option>
+                        <option value="Computer Engineering">Computer Engineering</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="tel">Tel/Mobile</label></td>
+                    <td><input type="tel" id="tel" name="tel" placeholder="xxx xxx xxxx"></td>
+                </tr>
+            </table>
+            <br><input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

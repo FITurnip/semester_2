@@ -1,0 +1,119 @@
+<!-- IDENTITAS
+    Nama    : Franklin Impianro Turnip
+    NIM     : 2203211
+    Kelas   : C2
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        html {
+            background-color: #EBE9DE;
+        }
+        body {
+            width: 1290px;
+            margin: 0px auto 0px;
+            background-color: #ffffff;
+        }
+        header img {
+            width: 1290px;
+        }
+        section {
+            float: right;
+            width: 73%;
+            margin: 15px 30px 15px 15px;
+        }
+        aside {
+            float: left;
+            width: 20%;
+            height: 400px;
+            border: 2px dashed #E8E0D6;
+            margin: 15px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            line-height: 2;
+        }
+        nav h3 {
+            text-align: center;
+        }
+        nav ul li {
+            padding-left: 20px;
+            margin: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #92928F;
+        }
+        footer {
+            clear:both;
+            text-align: right;
+            padding: 30px;
+            background-color: #736A85;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./headfpmipa.jpg" alt="header"/>
+    </header>
+    <section class="main-content">
+        <h3 style="text-align: center;">SILAKAN MASUKKAN PESAN</h3>
+        <form action="./kirimpesan.php" method="post">
+            <table >
+                <tr>
+                    <td width="150"><label for="name">Nama</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="name" id="name" placeholder="masukkan nama" /></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td>:</td>
+                    <td><input type="email" name="email" id="email" placeholder="masukkan email" /></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Status</td>
+                    <td rowspan="2">:</td>
+                    <td><input type="radio" name="status" id="mhs" value="mahasiswa">Mahasiswa</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="status" id="mhs" value="dosen">Dosen</td>
+                </tr>
+                <tr>
+                    <td><label for="programstudi">Program Studi</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="programstudi" id="programstudi"></td>
+                </tr>
+                <tr>
+                    <td><label for="pesan">Pesan</label></td>
+                    <td>:</td>
+                    <td><textarea name="pesan" id="pesan" cols="60" rows="10" placeholder="silakan masukan pesan"></textarea></td>
+                </tr>
+            </table>
+            <button type="submit">Kirim</button>
+            <button type="reset">Batal</button>
+        </form>
+    </section>
+    <aside>
+        <nav>
+            <h3>MENU</h3>
+            <ul class="Menu">
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./kirimpesan.html">Kirim Pesan</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <footer>
+        <p>&copy;2020 Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam - UPI<br/>
+            Jl. Dr. Setiabudhi No. 229 Bandung 40154 Jawa Barat - Indonesia<br/>
+            Telp/Fax: +62-22-2001108<br/>
+            Email: fpmipa@upi.edu</p>
+    </footer>
+</body>
+</html>

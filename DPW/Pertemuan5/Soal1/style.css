@@ -1,0 +1,45 @@
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    display: inline-block;
+    background-color: lightpink;
+    height: 25px;
+    width: 70px;
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav ul li a:hover{
+    background-color: #ff0099;
+}
+
+section {
+    background-color: lightpink;
+    height: 200px;
+    width: 1000px;
+}
+
+section h1 {
+    padding: 30px 20px 0px;
+    color: #ff0099;
+}
+section p {
+    color: red;
+    padding: 0px 20px;
+}
+
+section hr {
+    margin : 20px;
+}

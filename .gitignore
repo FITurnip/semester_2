@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/c,c++,windows,web,laravel,linux,database
-# Edit at https://www.toptal.com/developers/gitignore?templates=c,c++,windows,web,laravel,linux,database
+# Created by https://www.toptal.com/developers/gitignore/api/c,c++,linux,windows,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=c,c++,linux,windows,visualstudiocode
 
 ### C ###
 # Prerequisites
@@ -74,40 +74,6 @@ dkms.conf
 
 # Executables
 
-### Database ###
-*.accdb
-*.db
-*.dbf
-*.mdb
-*.sqlite3
-*.db-shm
-*.db-wal
-
-### Laravel ###
-/vendor/
-node_modules/
-npm-debug.log
-yarn-error.log
-
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
-
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
-
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
-
-storage/*.key
-.env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
-
 ### Linux ###
 *~
 
@@ -123,20 +89,24 @@ Homestead.json
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-### Web ###
-*.asp
-*.cer
-*.csr
-*.css
-*.htm
-*.html
-*.js
-*.jsp
-*.php
-*.rss
-*.wasm
-*.wat
-*.xhtml
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -164,7 +134,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/c,c++,windows,web,laravel,linux,database
+# End of https://www.toptal.com/developers/gitignore/api/c,c++,linux,windows,visualstudiocode
 
 ### ADDTIONAL
 # Document

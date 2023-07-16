@@ -1,0 +1,26 @@
+html {
+    background-image: url(bg\ soal\ 2.png);
+    background-repeat: repeat-x;
+}
+
+body {
+    font-family: sans-serif;
+    width: 820px;
+    margin: 0 auto;
+}
+
+nav {
+    font-size: large;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+section {
+    padding: 20px;
+    height: 300px;
+    background-color: #40e0d0;
+}
+
+section p {
+    text-align: justify;
+}
