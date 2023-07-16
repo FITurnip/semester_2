@@ -1,0 +1,1 @@
+int menang(int map[3][3], int a);
